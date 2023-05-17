@@ -24,7 +24,7 @@ const logout = () => {
       <div className="nav-container">
           {(loggedIn ?
           <div className="nav-box">
-            <h1>Title</h1>
+            <h1>Acebook</h1>
             <NavButton to="/posts" value="Posts"/>
 
             <button className="logout-button" onClick={logout}>Logout</button>
