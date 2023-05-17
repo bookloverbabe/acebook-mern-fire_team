@@ -31,7 +31,7 @@ const logout = () => {
           </div>
           :
           <div className="nav-box">
-            <h1>Title</h1>
+            <h1>Acebook</h1>
             <NavButton to="/signup" value="Sign-up"/>
 
             <NavButton to="/login" value="Login"/>
