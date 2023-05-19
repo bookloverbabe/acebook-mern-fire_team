@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 
 const FileUploader = ({onFileSelectSuccess, onFileSelectError, userPhoto, setUserPhoto}) => {
-  const fileInput = useRef(null) // research
+  // const fileInput = useRef(null) // research
 
   const handleFileInput = (event) => {
     const file = event.target.files[0];
@@ -13,8 +13,8 @@ const FileUploader = ({onFileSelectSuccess, onFileSelectError, userPhoto, setUse
 
   return (
     <div className="file-uploader">
-      <input type="file" onChange={handleFileInput} />
-      <button onClick={event => fileInput.current && fileInput.current.click()} className="btn btn-primary" />
+      <input id="file-uploader-button" type="file" onChange={handleFileInput} />
+      {/* <button onClick={event => fileInput.current && fileInput.current.click()} className="btn btn-primary" /> */}
     </div>
   )
 }
