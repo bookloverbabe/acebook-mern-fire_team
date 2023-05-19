@@ -1,5 +1,6 @@
 /* our brand colours are white and #3b5998 */
 
+
 .post-button,
 .logout-button {
   font-size: 15px;
@@ -41,7 +42,60 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.logo {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
   
+  /* .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbutton {
+    background-color: white;
+    padding: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid rgb(202, 202, 202) 1px;
+    margin: 6px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbutton:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  :root {
+    --primary: #3b5998;
+    --secondary: white;
+  }
+  
+  .navbutton.clicked {
+    color: white;
+  }
+  
+  .nav-box h1 {
+    margin-right: auto;
+    border-bottom: 1.5px solid black;
+  }
+  
+  .nav-box a {
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .nav-box a.active {
+    background-color: var(--primary);
+  } */
+  
+
 
 
 /* .nav-bar button {
