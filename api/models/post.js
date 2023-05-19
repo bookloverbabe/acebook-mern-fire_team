@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const CommentSchema = require("./comment").CommentSchema;
 
 const PostSchema = new mongoose.Schema({
   message: String,
@@ -14,11 +15,10 @@ const PostSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
   },
-  createdDateTime: Date
+  createdDateTime: Date,
+  comments: [CommentSchema]
 });
 
 const Post = mongoose.model("Post", PostSchema);
 
 module.exports = Post;
-
-
